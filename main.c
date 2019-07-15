@@ -18,6 +18,9 @@ int main()
                 if (!strcmp(input, "help")) {
            		printf("simple shell\n");
 		}
+		else if (!strcmp(input, "about")) {
+			printf("Sim shell\nversion: 0.0.1\n");
+		}
 		else {
 			printf("invalid command\n");
 		}
