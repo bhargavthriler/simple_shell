@@ -19,8 +19,11 @@ int main()
            		printf("simple shell\n");
 		}
 		else if (!strcmp(input, "about")) {
-			printf("Sim shell\nversion: 0.0.1\n");
+			printf("Sim shell\nversion: 0.0.1a\n");
 		}
+		else if (!strcmp(input, "version")) {
+                        printf("0.0.1a\n");
+                }
 		else {
 			printf("invalid command\n");
 		}
