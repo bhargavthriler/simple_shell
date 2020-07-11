@@ -1,6 +1,6 @@
 SRCS = $(wildcard *.c)
 
-CC = gcc
+#CC = gcc
 
 OBJ_NAME = hello_shell
 
